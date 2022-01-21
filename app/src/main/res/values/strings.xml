@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">CoachApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Buttons -->
+    <string name="btn_iniciar_sesion">INICIAR SESIÓN</string>
+    <string name="btn_inicio">INICIO</string>
+    <string name="btn_empezar">EMPEZAR</string>
+    <string name="btn_continuar">CONTINUAR</string>
+    <string name="btn_crea_plan">CREAR PLAN</string>
+    <string name="btn_accede_mail">Accede con tu email</string>
+    <string name="btn_facebook">Acceder con Facebook</string>
+    <string name="btn_google">Coninuar con GMail</string>
+    <string name="btn_terminado">TERMINADO</string>
+    <string name="btn_completado">COMPLETADO</string>
+    <string name="btn_entrenamiento_completado">ENTRENAMIENTO COMPLETADO</string>
+    <string name="btn_casa">EN CASA</string>
+    <string name="btn_gym">EN GYM</string>
+    <string name="btn_cerrar_sesion">CERRAR SESIÓN</string>
+    <string name="btn_agregar_alarma">Agregar Alarma</string>
+    <string name="btn_servicio_cliente">Servicio al Cliente</string>
+    <string name="btn_enviar_comentario">Enviar Comentario</string>
+    <string name="btn_enviar">Enviar</string>
+    <string name="btn_aceptar">Aceptar</string>
+
+    <string name="slogan">Tu plan de entrenamiento \n y dieta personalizado</string>
+    <string name="disclaimer">Al continuar, aceptas nuestras políticas de privacidad, términos de uso y términos de suscripción</string>
+    <string name="powered">powered by</string>
+    <string name="easycode">&lt; e a s y c o d e &gt;</string>
+
+    <string name="pregunta_genero">¿Cuál es tu género?</string>
+    <string name="genero_masculino">MASCULINO</string>
+    <string name="genero_femenino">FEMENINO</string>
+
+    <string name="pregunta_objetivo">Elige tu objetivo</string>
+    <string name="objetivo_grasa">PERDER GRASA</string>
+    <string name="objetivo_forma">MANTENER FORMA</string>
+    <string name="objetivo_musculo">AUMENTAR MÚSCULO</string>
+
+    <string name="pregunta_condicion_fisica">¿Cuál es tu nivel de condición física?</string>
+    <string name="condicion_principiante">PRINCIPIANTE</string>
+    <string name="condicion_intermedio">INTERMEDIO</string>
+    <string name="condicion_avanzado">AVANZADO</string>
+
+    <string name="pregunta_peso_actual">Peso</string>
+    <string name="lbl_peso_actual">ACTUAL</string>
+
+    <string name="pregunta_peso_deseado">Peso</string>
+    <string name="lbl_peso_deseado">DESEADO</string>
+
+    <string-array name="unidades_peso">
+        <item>Lb</item>
+        <item>Kg</item>
+    </string-array>
+
+    <string name="pregunta_altura">Altura</string>
+
+    <string-array name="unidades_altura">
+        <item>in</item>
+        <item>mts</item>
+    </string-array>
+
+    <string name="pregunta_edad">Edad</string>
+    <string name="unidad_edad">años</string>
+
+    <string name="cargando_plan">Estamos creando tu plan de entrenamiento y dieta, por favor espera...</string>
+    <string name="plan_cargado">¡Tu plan está listo! \n Conócelo.</string>
+
+    <string name="tienes_cuenta">¿Ya tienes cuenta?</string>
+    <string name="btn_inicia_sesion">INICIA SESIÓN</string>
+
+    <string name="placeholder_nombre">Nombre</string>
+    <string name="placeholder_correo">Correo Electrónico</string>
+    <string name="placeholder_contrasena">Contraseña</string>
+
+    <string name="compra_suscripcion">COMPRA SUSCRIPCIÓN</string>
+    <string name="total_compra">TOTAL DE COMPRA</string>
+
+    <string name="metodo_pago">Selecciona método de pago</string>
+    <string name="metodo_pago_tarjeta">Tarjeta de crédito y débito</string>
+    <string name="metodo_pago_efectivo">Efectivo</string>
+    <string name="metodo_pago_transferencia">Transferencia interbancaria</string>
+    <string name="forma_simple_pago">Forma simple y segura de pagar</string>
+
+    <string name="mi_rendimiento">MI RENDIMIENTO</string>
+    <string name="retos_30_dias">RETOS 30 DÍAS</string>
+    <string name="rendimiento_promedio">Rendimiento promedio</string>
+    <string name="avance">Avance</string>
+
+    <string name="calentamiento">Calentamiento</string>
+    <string name="trote">TROTE</string>
+    <string name="velocidad">Velocidad</string>
+    <string name="elige_nivel_entrenamiento">Elige tu nivel de \n ENTRENAMIENTO</string>
+
+    <string name="lbl_calificar_desempeno">¿Cómo calificarías tu desempeño el día de hoy?</string>
+
+    <!-- MI PERFIL -->
+    <string name="administrar_notificaciones">Administrar notificaciones</string>
+    <string name="galeria_fotos">Galería de fotos</string>
+    <string name="modificar_suscripcion">Modificar Suscripción</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="modificar_objetivos">Modificar Objetivos</string>
+    <string name="comentarios_sugerencias">Comentarios y sugerencias</string>
+    <string name="reportar_problema">Reportar un problema</string>
+    <string name="terminos_condiciones">Términos y condiciones</string>
+    <string name="politicas_privacidad">Políticas de privacidad</string>
+
+    <string name="lbl_alarmas">Alarmas</string>
+    <string name="lbl_hora">Hora</string>
+    <string name="lbl_hora_comida">Hora comida</string>
+    <string name="lbl_ejercicio">Ejercicio</string>
+    <string name="lbl_agregar_alarma">Agregar Alarma</string>
+    <string name="lbl_nueva_alarma">Nueva Alarma</string>
+    <string name="lbl_fijar_nombre">Fijar nombre</string>
+    <string name="lbl_fijar_hora">Fijar hora</string>
+
+    <string name="opciones_no_modificables">Opciones no modificables</string>
+    <string name="lbl_opciones_no_modificables">No es posible modificar estas opciones, si requieres hacerlo contacta a nuestro equipo de servicio al cliente</string>
+
+    <string name="checa_progreso">CHECA TU PROGRESO</string>
+    <string name="lbl_subir_foto">Subir Foto</string>
+
+    <string name="lbl_idioma">Idioma</string>
+    <string name="lbl_seleccion_unidades">Selección de Unidades</string>
+    <string name="lbl_unidades_peso">Unidades de peso</string>
+    <string name="lbl_unidades_altura">Unidades de altura</string>
+
+    <string name="lbl_comentarios_sugerencias">Comentarios y Sugerencias</string>
+    <string name="lbl_interesa_opinion">Nos interesa tu opinión</string>
+    <string name="lbl_reportar_problema">Cuéntanos ¿Cuál es el problema?</string>
+
+</resources>

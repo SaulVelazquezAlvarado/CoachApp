@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auth_nav"
+    app:startDestination="@id/authFragment">
+
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="mx.easycode.coachapp.AuthFragment"
+        android:label="fragment_auth"
+        tools:layout="@layout/fragment_auth" >
+        <action
+            android:id="@+id/action_authFragment_to_generoFragment"
+            app:destination="@id/generoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/generoFragment"
+        android:name="mx.easycode.coachapp.GeneroFragment"
+        android:label="fragment_genero"
+        tools:layout="@layout/fragment_genero" >
+        <action
+            android:id="@+id/action_generoFragment_to_objetivoFragment"
+            app:destination="@id/objetivoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/objetivoFragment"
+        android:name="mx.easycode.coachapp.ObjetivoFragment"
+        android:label="fragment_objetivo"
+        tools:layout="@layout/fragment_objetivo" >
+        <action
+            android:id="@+id/action_objetivoFragment_to_condicionFisicaFragment"
+            app:destination="@id/condicionFisicaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/condicionFisicaFragment"
+        android:name="mx.easycode.coachapp.CondicionFisicaFragment"
+        android:label="fragment_condicion_fisica"
+        tools:layout="@layout/fragment_condicion_fisica" >
+        <action
+            android:id="@+id/action_condicionFisicaFragment_to_pesoActualFragment"
+            app:destination="@id/pesoActualFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pesoActualFragment"
+        android:name="mx.easycode.coachapp.PesoActualFragment"
+        android:label="fragment_peso_actual"
+        tools:layout="@layout/fragment_peso_actual" >
+        <action
+            android:id="@+id/action_pesoActualFragment_to_pesoDeseadoFragment"
+            app:destination="@id/pesoDeseadoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pesoDeseadoFragment"
+        android:name="mx.easycode.coachapp.PesoDeseadoFragment"
+        android:label="fragment_peso_deseado"
+        tools:layout="@layout/fragment_peso_deseado" >
+        <action
+            android:id="@+id/action_pesoDeseadoFragment_to_alturaFragment"
+            app:destination="@id/alturaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/alturaFragment"
+        android:name="mx.easycode.coachapp.AlturaFragment"
+        android:label="fragment_altura"
+        tools:layout="@layout/fragment_altura" >
+        <action
+            android:id="@+id/action_alturaFragment_to_edadFragment"
+            app:destination="@id/edadFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/edadFragment"
+        android:name="mx.easycode.coachapp.EdadFragment"
+        android:label="fragment_edad"
+        tools:layout="@layout/fragment_edad" >
+        <action
+            android:id="@+id/action_edadFragment_to_creandoPlanFragment"
+            app:destination="@id/creandoPlanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/creandoPlanFragment"
+        android:name="mx.easycode.coachapp.CreandoPlanFragment"
+        android:label="fragment_creando_plan"
+        tools:layout="@layout/fragment_creando_plan" >
+        <action
+            android:id="@+id/action_creandoPlanFragment_to_planListoFragment"
+            app:destination="@id/planListoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/planListoFragment"
+        android:name="mx.easycode.coachapp.PlanListoFragment"
+        android:label="fragment_plan_listo"
+        tools:layout="@layout/fragment_plan_listo" >
+        <action
+            android:id="@+id/action_planListoFragment_to_registrateFragment"
+            app:destination="@id/registrateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrateFragment"
+        android:name="mx.easycode.coachapp.RegistrateFragment"
+        android:label="fragment_registrate"
+        tools:layout="@layout/fragment_registrate" />
+</navigation>
